@@ -1,1 +1,1 @@
-from .methods import PrayerTimes, CalculationMethod, AsrMethod
+from .methods import PrayerTimes, CalculationMethod, AsrMethod, GeneralMethod
