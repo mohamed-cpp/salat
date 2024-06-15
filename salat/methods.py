@@ -182,7 +182,7 @@ def PrayerTimes(method=CalculationMethod.MWL, asr=AsrMethod.STANDARD) -> General
     if method == CalculationMethod.ISNA:
         return GeneralMethod(15, 15, asr)
     elif method == CalculationMethod.ISNACANADA:
-        return GeneralMethod(16.5, 12.5, asr)
+        return GeneralMethod(15, 11.4, asr)
     elif method == CalculationMethod.MWL:
         return GeneralMethod(18, 17, asr)
     elif method == CalculationMethod.EGYPT:
